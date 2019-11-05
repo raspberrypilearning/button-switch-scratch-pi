@@ -16,7 +16,7 @@ You will combine these with simple outputs such as LEDs and Scratch to work with
 --- no-print ---
 Add instructions for using the embedded content here.
 
-<div class="scratch-preview">
+<div class="?">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
 </div>
 --- /no-print ---
