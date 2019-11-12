@@ -1,12 +1,16 @@
 ## Button basics
 
+Button switches are an **input**. The Button sends a signal which is received by the Raspberry Pi to be processed.
+
 ![Input Output](images/buttonBasics_inputOutput.png)
 
-In the previous **LEDs, buzzers and Scratch games** project we looked at using The Raspberry Pi's powerful genral purpose input output (GPIO) pins to use to control simple electronic inputs such as LEDs and buzzers. Now we are going to do the same for inputs with the humble button switch.
+In the previous **LEDs, buzzers and Scratch games** project we looked at using The Raspberry Pi's powerful genral purpose input output (GPIO) pins to use to control simple electronic **outputs** such as LEDs and buzzers. Now we are going to do the same for **inputs** with the humble button switch.
 
 ![Button switches](images/buttonBasics_buttonSwitches.png)
 
-You can buy a [pin guide](https://thepihut.com/products/gpio-reference-board-model-b-plus-and-a-plus?ref=isp_rel_prd&isp_ref_pos=5){:target="_blank"} to help you identify the GPIO pins, use the image below, or open a terminal and type `pinout` to see the numbers of all the pins.
+Many switches we use, such as most household light switches, **toggle** between `on` and `off`. All of the button switches in the image above, and the ones we'll be looking at in this project are **push-to-make** switches, meaning that they are `on` while they being pressed and `off` whenever they are not being pressed.
+
+
 
 ![Raspberry Pi GPIO pin guide](images/lightLED_RPi_gpioPinRef.png)
 
