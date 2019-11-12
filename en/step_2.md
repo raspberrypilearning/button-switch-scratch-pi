@@ -12,42 +12,41 @@ Many switches we use, such as most household light switches, **toggle** between 
 
 ### Button switch leg connections
 
-All but the smallest buttons have four legs which are connected in positive and negative pairs (polarity does not matter for button switches).
+All but the smallest buttons have four legs which are connected in signal in and signal out pairs (polarity does not matter for button switches).
 
 ![Button switch in breadboard](images/buttonBasics_buttonInBB.png)
 
+In the image above, a **signal in** jumper cable could be connected anywhere in row 23 and the **signal out** cable anywhere in row 25.
+
+NOTE: if you connected a cable to the left-side row 23 and another to the right-side of row 23, the signal would pass straight through the switch whether it was pressed or not.
+
 ![Button switch leg connections](images/buttonBasics_buttonLegConnections.png)
 
-Before you get using a switchable I/O (input/output) pin, you're going to light an LED by making a simple circuit using a 3.3v pin to supply the power.
-
-This will make sure you know:
-+ That your LED and resistor work
-+ What a simple LED circuit looks like
-+ How to connect the components together
-
-A very simple LED circuit would be an LED connected to a battery cell with a resistor to protect the LED by limiting the current flow.
-
-![LED circuit with battery and resistor](images/lightLED_batteryLedCircuit.png)
-
-NOTE: The positive always connects to the longer, positive leg of the LED which is called the **anode**.
-
-You will be using a breadboard to help connect the electronic components together. The image below shows the same circuit using a breadboard.
-
-![LED circuit with battery, breadboard and resistor](images/lightLED_batteryBreadLedCircuit.png)
-
-The breadboard holes are conncted in lines underneath the cover so that:
-+ the blue wire connects to the resistor
-+ the resistor connects to the **anode** (long, positive leg) of the LED
-+ the **cathode** (shorter, negative leg) of the LED connects to the black wire
-
-You are going to make this same circuit but using the Raspberry Pi as the power source instead of a battery.
+### A simple button set up
 
 --- task ---
 
-Place an LED in your breadboard so that the legs are either side of the middle 'trench'. the breadboard is not connected across this gap.
+Plug a button switch into your breadboard. The button switches fit very well with legs spread across the middle trench in the breadboard.
 
-Note which is the longer, positive leg. In the example the longer-legged anode is on the left.
-
-![LED in breadboard](images/lightLED_ledInBb.png)
+![Button on breadboard diagram](images/buttonBasics_buttonInBBdiagram.png)
 
 --- /task ---
+
+--- task ---
+
+Connect one leg (signal in) to a numbered GPIO pin. It is connected to GPIO pin 2 in the example
+
+![connect to GPIO pin 2](images/buttonBasics_buttonToGpio2.png)
+
+--- /task ---
+
+--- task ---
+
+Connect the other leg on that side (signal out) to a ground (GND or -) pin.
+
+![connect to a ground pin](images/buttonBasics_buttonToGround.png)
+
+--- /task ---
+
+### Scratch controlled by the button
+
