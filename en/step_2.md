@@ -10,9 +10,13 @@ In the previous **LEDs, buzzers and Scratch games** project we looked at using T
 
 Many switches we use, such as most household light switches, **toggle** between `on` and `off`. All of the button switches in the image above, and the ones we'll be looking at in this project are **push-to-make** switches, meaning that they are `on` while they being pressed and `off` whenever they are not being pressed.
 
+### Button switch leg connections
 
+All but the smallest buttons have four legs which are connected in positive and negative pairs (polarity does not matter for button switches).
 
-![Raspberry Pi GPIO pin guide](images/lightLED_RPi_gpioPinRef.png)
+![Button switch in breadboard](images/buttonBasics_buttonInBB.png)
+
+![Button switch leg connections](images/buttonBasics_buttonLegConnections.png)
 
 Before you get using a switchable I/O (input/output) pin, you're going to light an LED by making a simple circuit using a 3.3v pin to supply the power.
 
