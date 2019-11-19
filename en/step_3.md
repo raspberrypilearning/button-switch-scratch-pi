@@ -72,7 +72,7 @@ From the `Operators`{:class="block3operators"} block palette, add a `pick random
 
 ```blocks3
 when button (2 v) is [pressed v] ::extension
-set [random_effect v] to (pick random (1) to (3))
++ set [random_effect v] to (pick random (1) to (3))
 ```
 Now, every time you press the button, `random_effect`{:class="block3variables"} is set to 1, 2 or 3.
 
@@ -95,12 +95,12 @@ Let's add some selection to your program.
 
 --- task ---
 
-From the `Control`{:class="block3control"} block palette, add an `If... then... else`{:class="block3operators"} block.
+From the `Control`{:class="block3control"} block palette, add an `If... then... else`{:class="block3control"} block.
 
 ```blocks3
 when button (2 v) is [pressed v] ::extension
 set [random_effect v] to (pick random (1) to (3))
-If <> then
++ If <> then
 else
 end
 ```
