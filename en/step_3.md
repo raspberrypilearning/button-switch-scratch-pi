@@ -107,6 +107,26 @@ end
 
 --- /task ---
 
+Now, you are going to add the **condition** to be checked.
+
+--- task ---
+
+From the `Operators`{:class="block3operators"} block palette, add a `0 = 50`{:class="block3control"} block and change the 50 to 1.
+
+Add the `random_effect`{:class="block3variables"} block into the blank value field and place this whole block in the hexagonal space between `if`{:class="block3control"} and `then`{:class="block3control"}.
+
+```blocks3
++ <(random_effect)=(1)>
+
+when button (2 v) is [pressed v] ::extension
+set [random_effect v] to (pick random (1) to (3))
+If <(random_effect)=(1)> then
+else
+end
+```
+
+--- /task ---
+
 
 
 
