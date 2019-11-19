@@ -133,4 +133,12 @@ set [whirl v] effect to (0)
 
 Press and release the button to check that it works as you expect.
 
+--- no-print ---
+![Button press effect in Scratch](images/buttonBasics_scratchEffect2.gif)
+--- /no-print ---
+
+--- print-only ---
+![Button press effect in Scratch](images/buttonBasics_scratchEffect2.png)
+--- /print-only ---
+
 --- /task ---
