@@ -9,6 +9,8 @@ steps:
   - title: Introduction
   - title: Button basics
   - title: A random button
+  - title: "Challenge: A more random button"
+    challenge: true
   - title: Controlling an LED
   - title: "Challenge: Which LED?"
     challenge: true
