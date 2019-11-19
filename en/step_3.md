@@ -95,7 +95,7 @@ Let's add some selection to your program.
 
 --- task ---
 
-From the `Control`{:class="block3control"} block palette, add an `If... then... else`{:class="block3control"} block.
+From the `Control`{:class="block3control"} block palette, add an `if... then... else`{:class="block3control"} block.
 
 ```blocks3
 when button (2 v) is [pressed v] ::extension
@@ -126,6 +126,52 @@ end
 ```
 
 --- /task ---
+
+--- task ---
+
+If `random_effect`{:class="block3variables"} does equal 1 then lets change the size.
+
+```blocks3
+when button (2 v) is [pressed v] ::extension
+set [random_effect v] to (pick random (1) to (3))
+If <(random_effect)=(1)> then
+    change size by (50) %
+else
+end
+```
+
+--- /task ---
+
+But if `random_effect`{:class="block3variables"} does **not** equal 1 you need the program to check if it equals 2!
+
+--- task ---
+
+Duplicate the `if... then... else`{:class="block3control"} block along with everything insde it.
+
+Change the `random_effect`{:class="block3variables"}`= 1`{:class="block3operators"}to `random_effect`{:class="block3variables"}`= 2`{:class="block3operators"} and throw the `set size`{:class="block3looks"} block away.
+
+```blocks3
+If <(random_effect)=(2)> then
+else
+end
+```
+
+Place this new `if... then... else`{:class="block3control"} block **inside** the `else`{:class="block3control"} part of the original `if... then... else`{:class="block3control"} block.
+
+```blocks3
+when button (2 v) is [pressed v] ::extension
+set [random_effect v] to (pick random (1) to (3))
+If <(random_effect)=(1)> then
+    change size by (50) %
+else
+    If <(random_effect)=(2)> then
+    else
+    end
+end
+```
+
+--- /task ---
+
 
 
 
