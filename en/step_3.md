@@ -84,9 +84,10 @@ At this point in the code, you need the program to make a **decision**. You need
 
 The program asks a question, checks the answer and then proceeds one way or another depending on the answer. The answer to a selection question can only be **true** or **false**.
 
-Question: Does `random_effect`{:class="block3variables"} equal `1`{:class="block3variables"}?
+**Question:** Does `random_effect`{:class="block3variables"} equal `1`{:class="block3variables"}?
 
-The answer is either **true** (yes, `random_effect`{:class="block3variables"} equals `1`{:class="block3variables"}) or **false** (no, `random_effect`{:class="block3variables"} does **not** equal `1`{:class="block3variables"}). There are no other options.
+The answer is either **true** (yes, `random_effect`{:class="block3variables"} equals `1`{:class="block3variables"}) 
+or **false** (no, `random_effect`{:class="block3variables"} does **not** equal `1`{:class="block3variables"}). There are no other options.
 
 `If`{:class="block3control"} it is 1, then the program will do one thing, `else`{:class="block3control"} (otherwise) it will something else.
 
