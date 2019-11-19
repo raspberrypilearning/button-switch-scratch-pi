@@ -2,6 +2,10 @@
 
 Looking at the example code from **Button basics**, there are three different effects happening all at the same time. 
 
++ size 
++ colour
++ whirl
+
 ```blocks3
 when button (2 v) is [pressed v] ::extension
 change size by (50) %
@@ -61,5 +65,47 @@ Change the variable to `random_effect`{:class="block3variables"} using the dropd
 --- /print-only ---
 
 --- /task ---
+
+--- task ---
+
+From the `Operators`{:class="block3operators"} block palette, add a `pick random 1 to 10`{:class="block3operators"} block and change the range to 1 to 3.
+
+```blocks3
+when button (2 v) is [pressed v] ::extension
+set [random_effect v] to (pick random (1) to (3))
+```
+Now, every time you press the button, `random_effect`{:class="block3variables"} is set to 1, 2 or 3.
+
+--- /task ---
+
+### About selection
+
+At this point in the code, you need the program to make a **decision**. You need it to decide which of the three effects is going to happen each time the button is pressed. We call this decidion a **selection**.
+
+The program asks a question, checks the answer and then proceeds one way or another depending on the answer. The answer to a selection question can only be **true** or **false**.
+
+Question: Does `random_effect`{:class="block3variables"} equal `1`{:class="block3variables"}?
+
+The answer is either **true** (yes, `random_effect`{:class="block3variables"} equals `1`{:class="block3variables"}) or **false** (no, `random_effect`{:class="block3variables"} does **not** equal `1`{:class="block3variables"}). There are no other options.
+
+`If`{:class="block3control"} it is 1, then the program will do one thing, `else`{:class="block3control"} (otherwise) it will something else.
+
+Let's add some selection to your program.
+
+--- task ---
+
+From the `Control`{:class="block3control"} block palette, add an `If... then... else`{:class="block3operators"} block.
+
+```blocks3
+when button (2 v) is [pressed v] ::extension
+set [random_effect v] to (pick random (1) to (3))
+If <> then
+else
+end
+```
+
+--- /task ---
+
+
 
 
