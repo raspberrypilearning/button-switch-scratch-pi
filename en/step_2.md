@@ -122,7 +122,7 @@ You can also use the button release **event** to set Scratch cat back to normal.
 
 --- task ---
 
-Duplicate the code you just made, set the `button pressed`{:class="block3extensions"} event to `released`{:class="block3extensions"}, set `size`{:class="block3looks"} to 100%, and `color`{:class="block3looks"} and `whirl`{:class="block3looks"} to 0.
+Duplicate the code you just made, set the `button pressed`{:class="block3extensions"} event to `button released`{:class="block3extensions"}, set `size`{:class="block3looks"} to 100%, and `color`{:class="block3looks"} and `whirl`{:class="block3looks"} to 0.
 
 ```blocks3
 when button (2 v) is [released v] ::extension
@@ -157,7 +157,6 @@ set size to (100) %
 set [color v] effect to (0)
 set [whirl v] effect to (0)
 ```
-
 --- /task ---
 
 --- task ---
