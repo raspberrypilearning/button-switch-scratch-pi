@@ -111,13 +111,15 @@ Now, you are going to add the **condition** to be checked.
 
 --- task ---
 
-From the `Operators`{:class="block3operators"} block palette, add a `0 = 50`{:class="block3control"} block and change the 50 to 1.
-
-Add the `random_effect`{:class="block3variables"} block into the blank value field and place this whole block in the hexagonal space between `if`{:class="block3control"} and `then`{:class="block3control"}.
+From the `Operators`{:class="block3operators"} block palette, add a `0 = 50`{:class="block3control"} block and change the 50 to 1, and add the `random_effect`{:class="block3variables"} block into the blank value field.
 
 ```blocks3
-+ <(random_effect)=(1)>
+<(random_effect)=(1)>
+```
 
+Place this whole block in the hexagonal space between `if`{:class="block3control"} and `then`{:class="block3control"}.
+
+```blocks3
 when button (2 v) is [pressed v] ::extension
 set [random_effect v] to (pick random (1) to (3))
 If <(random_effect)=(1)> then
@@ -129,7 +131,7 @@ end
 
 --- task ---
 
-If `random_effect`{:class="block3variables"} does equal 1 then lets change the size.
+If `random_effect`{:class="block3variables"} does equal 1 then let's change the size.
 
 ```blocks3
 when button (2 v) is [pressed v] ::extension
@@ -164,7 +166,7 @@ set [random_effect v] to (pick random (1) to (3))
 If <(random_effect)=(1)> then
     change size by (50) %
 else
-    If <(random_effect)=(2)> then
++   If <(random_effect)=(2)> then
     else
     end
 end
@@ -172,7 +174,41 @@ end
 
 --- /task ---
 
+--- task ---
+If `random_effect`{:class="block3variables"} does equal 2 then let's change the colour.
 
+```blocks3
+change color by (20) %
+```
 
+If `random_effect`{:class="block3variables"} does **not** equal 1 or 2 then then it **must** equal 3, so in the second `else`{:class="block3control"} section let's change the whirl effect.
+
+```blocks3
+change whirl by (50) %
+```
+
+--- /task ---
+
+--- task ---
+
+It took two questions to check whether `random_effect`{:class="block3variables"} is 1, 2 or 3.
+
+```blocks3
+when button (2 v) is [pressed v] ::extension
+set [random_effect v] to (pick random (1) to (3))
+If <(random_effect)=(1)> then
+    change size by (50) %
+else
+    If <(random_effect)=(2)> then
+    +   change color by (20) %
+    else
+    +   change whirl by (50) %
+    end
+end
+```
+
+Now press the button a few tiimes to see what effect will happen each time.
+
+--- /task ---
 
 
