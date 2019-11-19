@@ -178,13 +178,13 @@ end
 If `random_effect`{:class="block3variables"} does equal 2 then let's change the colour.
 
 ```blocks3
-change [color v] by (20)
+change [color v] effect by (20)
 ```
 
 If `random_effect`{:class="block3variables"} does **not** equal 1 or 2 then then it **must** equal 3, so in the second `else`{:class="block3control"} section let's change the whirl effect.
 
 ```blocks3
-change [whirl v] by (50)
+change [whirl v] effect by (50)
 ```
 
 --- /task ---
@@ -200,9 +200,9 @@ If <(random_effect)=(1)> then
     change size by (50) %
 else
     If <(random_effect)=(2)> then
-    +   change [color v] by (20)
++       change [color v] effect by (20)
     else
-    +   change [whirl v] by (50)
++       change [whirl v] effect by (50)
     end
 end
 ```
