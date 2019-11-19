@@ -78,9 +78,9 @@ Choose the **Raspberry Pi Simple Electronics** extension. When you click this, a
 
 --- task ---
 
-You would usually start with an **event** from the `Events`{:class="block3events"} palette to start your code, such as `when flag clicked`{:class="block3events"}, but the `Raspberry Pi Simple Electronics`{:class="block3extension"} palette has an event of its own.
+You would usually start with an **event** from the `Events`{:class="block3events"} palette to start your code, such as `when flag clicked`{:class="block3events"}, but the `Raspberry Pi Simple Electronics`{:class="block3extensions"} palette has an event of its own.
 
-Pick the `when button 0 is pressed`{:class="block3extension"} block.
+Pick the `when button 0 is pressed`{:class="block3extensions"} block.
 
 ```blocks3
 when button (0 v) is [pressed v] ::extension
@@ -122,7 +122,34 @@ You can also use the button release **event** to set Scratch cat back to normal.
 
 --- task ---
 
-Duplicate the code you just made, set the `button pressed`{:class="block3extension"} event to `released`{:class="block3extension"}, set `size`{:class="block3looks"} to 100%, and `color`{:class="block3looks"} and `whirl`{:class="block3looks"} to 0.
+Duplicate the code you just made, set the `button pressed`{:class="block3extensions"} event to `released`{:class="block3extensions"}, set `size`{:class="block3looks"} to 100%, and `color`{:class="block3looks"} and `whirl`{:class="block3looks"} to 0.
+
+```blocks3
+when button (0 v) is [released v] ::extension
+set size to (100) %
+set [color v] effect to (0)
+set [whirl v] effect to (0)
+```
+
+Press and release the button to check that it works as you expect.
+
+--- no-print ---
+![Button press effect in Scratch](images/buttonBasics_scratchEffect2.gif)
+--- /no-print ---
+
+--- print-only ---
+![Button press effect in Scratch](images/buttonBasics_scratchEffect2.png)
+--- /print-only ---
+
+--- /task ---
+
+Another option is to use the **SPACE** key as an effect reset `event`{:class="block3events"} instead of the `button released`{:class="block3extensions"} event, and swap the `when button pressed`{:class="block3extensions"} `set`{:class="block3looks"} effects to `change`{:class="block3looks"} effects.
+
+Try it out!
+
+--- task ---
+
+First, replace `when button released`{:class="block3extensions"} with `when space pressed`{:class="block3events"}
 
 ```blocks3
 when button (0 v) is [released v] ::extension
