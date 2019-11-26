@@ -42,7 +42,7 @@ Adding to the whirl effect value makes the sprite whirl in an anti-clockwise dir
 
 For an extra random option, the `random_effect`{:class="block3variables"} will need to have `4`{:class="block3variables"} possibilities rather than `3`{:class="block3variables"}.
 
-Previously you coded what would happen `if`{:class="block3control"} `random_effect`{:class="block3variables"} `= 1`{:class="block3operators"} and `if`{:class="block3control"} `random_effect`{:class="block3variables"} `= 2`{:class="block3operators"}. Now you need to add that `if`{:class="block3control"} `random_effect`{:class="block3variables"} `= 3`{:class="block3operators"}, `then`{:class="block3control"} `change size`{:class="block3looks"} by a `negative` number to make it shrink.
+Previously you coded what would happen `if`{:class="block3control"} `random_effect`{:class="block3variables"} `= 1`{:class="block3operators"} and `if`{:class="block3control"} `random_effect`{:class="block3variables"} `= 2`{:class="block3operators"}. Now you need to add that `if`{:class="block3control"} `random_effect`{:class="block3variables"} `= 3`{:class="block3operators"}, `then`{:class="block3control"} `change size`{:class="block3looks"} by a `negative` number to make it shrink. To do this, just add another `if... then... else...`{:class="block3control"} selction where the `change whirl effect by 50`{:class="block3looks"} block was.
 
 Remember that if `random_effect`{:class="block3variables"} is not 1, 2 or 3 then it must be 4.
 
@@ -54,11 +54,17 @@ To make the `whirl`{:class="block3looks"} go either way, `change`{:class="block3
 
 You will need to add or edit the blocks below. These are all blocks already in your code so you can save some time by duplicating parts of your existing code.
 
-![Light show challenge code parsons problem](images/lightShow_lightShowCode__parsons.png)
+![More random button challenge code parsons problem](images/moreRandom_Code_parsons.png)
 
-You might also want to use the `random number`{:class="block3operators"} block.
+NOTE: Duplicating you second `if... then... else...`{:class="block3control"} selction will help. It only needs a little editing to become exaclty what you need.
 
-![Light show challenge code parsons problem](images/lightShow_randomNumber.png)
+```blocks3
+If <(random_effect)=(2)> then
+    change [color v] effect by (20)
+else
+    change [whirl v] effect by (50)
+end
+```
 
 --- /hint ---
 
