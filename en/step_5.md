@@ -99,7 +99,7 @@ From the `Rapsberry Pi Simple Electronics`{:class="block3extensions"} block pale
 ```blocks3
 when flag clicked
 forever
-    if <button (2 v is [pressed v]?)> then
+    if <button (2 v) is [pressed v]?> then
     else
     end
 end
@@ -107,8 +107,17 @@ end
 ```blocks3
 when flag clicked
 forever
-    if <+ button (2 v is [pressed v]?)> then
+    if <button (2 v) is [pressed v]?> then
     else
+    end
+    if + <button (2 v) is [pressed v]?> then
+    else
+    end
+    if <+ button (2 v) is [pressed v]?> then
+    else
++   if <button (2 v) is [pressed v]?> then
+    else
+    end
     end
 end
 ```
@@ -123,7 +132,7 @@ In the first space, after `then`{:class="block3control"}, place a `turn LED 4 on
 ```blocks3
 when flag clicked
 forever
-    if <button (2 v is [pressed v]?)> then
+    if <button (2 v) is [pressed v]?> then
 +          turn LED (4 v) [on v] ::extension 
     else
 +          turn LED (4 v) [off v] ::extension    
