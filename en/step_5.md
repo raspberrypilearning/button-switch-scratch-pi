@@ -114,12 +114,21 @@ end
 ```
 --- /task ---
 
---- /task ---
-
 After the `then`{:class="block3control"} and after the `else`{:class="block3control"} go the responses to whether `button 2 is pressed`{:class="block3extensions"} or not.
 
 --- task ---
 
 In the first space, after `then`{:class="block3control"}, place a `turn LED 4 on`{:class="block3extensions"} block, and in the second space, after `else`{:class="block3control"}, place a `turn LED 4 off`{:class="block3extensions"} block.
+
+```blocks3
+when flag clicked
+forever
+    if <button (2 v is [pressed v]?)> then
++          turn LED (4 v) [on v] ::extension 
+    else
++          turn LED (4 v) [off v] ::extension    
+    end
+end
+```
 
 --- /task ---
