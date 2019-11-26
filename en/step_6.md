@@ -98,9 +98,11 @@ For your second sequence control project, you'll code the LED to flash continuou
 
 --- task ---
 
-First, you'll need an event such as the `when flag clicked`{:class="block3events"} block.
+For this, you'll need to first swap the `if... then...`{:class="block3control"} block for an `if... then... else...`{:class="block3control"} block.
 
-Underneath that, place a `forever`{:class="block3control"} loop and inside that, place an `if... then`{:class="block3control"} block.
+You'll want to reuse most of the code so, without throwing it away, pull out the `button 2`{:class="block3extensions"} condition block and the `turn LED 4 on & off`{:class="block3extensions"} sequence. Arrange the `LED`{:class="block3extensions"} blocks as they were previously so that the `LED turns on`{:class="block3extensions"} first.
+
+Throw the `if... then...`{:class="block3control"} block away and replace it with an `if... then... else...`{:class="block3control"} block.
 
 ```blocks3
 when flag clicked
@@ -117,5 +119,45 @@ wait (0.1) seconds
 turn LED (4 v) [off v] ::extension
 wait (0.1) seconds
 ```
+
+--- /task ---
+
+--- task ---
+
+Replace the hexagonal `button 2`{:class="block3extensions"} condition block in the space in the new `if... then... else...`{:class="block3control"} block.
+
+Since this sequence will have the LED off when the button is pressed, place an `turn LED 4 off`{:class="block3extensions"} block after the `then`{:class="block3control"}.
+
+```blocks3
+when flag clicked
+forever
+    if <button (2 v) is [pressed v]?> then
++       turn LED (4 v) [off v] ::extension
+    else
+    end
+end
+```
+
+--- /task ---
+
+--- task ---
+
+Finally, place the `turn LED 4 on & off`{:class="block3extensions"} sequence in the space below `else`{:class="block3control"}. This is what will happen whenever the button is not pressed.
+
+```blocks3
+when flag clicked
+forever
+    if <button (2 v) is [pressed v]?> then
+        turn LED (4 v) [off v] ::extension
+    else
++       turn LED (4 v) [on v] ::extension
++       wait (0.1) seconds
++       turn LED (4 v) [off v] ::extension
++       wait (0.1) seconds       
+    end
+end
+```
+
+Click the green flag and see what happens. What happens when you press the button? Does the LED stay on or off? Can you work out why?
 
 --- /task ---
