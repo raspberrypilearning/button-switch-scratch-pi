@@ -83,7 +83,7 @@ You would usually start with an **event** from the `Events`{:class="block3events
 Pick the `when button 0 is pressed`{:class="block3extensions"} block.
 
 ```blocks3
-when button (0 v) is [pressed v] ::extension
+when button (0 v) is [pressed v] ::hat extension
 ```
 
 --- /task ---
@@ -93,14 +93,14 @@ when button (0 v) is [pressed v] ::extension
 Change the button number to 2 (or whatever GPIO pin you connected your button switch to) and add any effect you like to that, or follow the example below.
 
 ```blocks3
-when button (2 v) is [pressed v] ::extension
+when button (2 v) is [pressed v] ::hat extension
 set size to (300) %
 ```
 
 If you like, you could add a few different effects, like below.
 
 ```blocks3
-when button (2 v) is [pressed v] ::extension
+when button (2 v) is [pressed v] ::hat extension
 set size to (300) %
 set [color v] effect to (60)
 set [whirl v] effect to (350)
@@ -125,7 +125,7 @@ You can also use the button release **event** to set Scratch cat back to normal.
 Duplicate the code you just made, set the `button pressed`{:class="block3extensions"} event to `button released`{:class="block3extensions"}, set `size`{:class="block3looks"} to 100%, and `color`{:class="block3looks"} and `whirl`{:class="block3looks"} to 0.
 
 ```blocks3
-when button (2 v) is [released v] ::extension
+when button (2 v) is [released v] ::hat extension
 set size to (100) %
 set [color v] effect to (0)
 set [whirl v] effect to (0)
@@ -164,7 +164,7 @@ set [whirl v] effect to (0)
 Next, under the `when button pressed`{:class="block3extensions"} code, replace each of the `set`{:class="block3looks"} blocks with `change`{:class="block3looks"} blocks.
 
 ```blocks3
-when button (2 v) is [pressed v] ::extension
+when button (2 v) is [pressed v] ::hat extension
 change size by (50) %
 change [color v] effect by (10)
 change [whirl v] effect by (50)
