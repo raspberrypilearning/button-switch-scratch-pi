@@ -78,10 +78,10 @@ when button (2 v) is [pressed v] ::extension
 If <(random_effect)=(1)> then
     change size by (50) %
 else
-+   If <(random_effect)=(2)> then
+    If <(random_effect)=(2)> then
         change [color v] effect by (20)
     else
-        If <(random_effect)=(3)> then
++       If <(random_effect)=(3)> then
             change size by (-50) %
         else
             change [whirl v] effect by (pick random (-100) to (100))
