@@ -7,7 +7,7 @@ Looking at the example code from **Button basics**, there are three different ef
 + whirl
 
 ```blocks3
-when button (2 v) is [pressed v] ::extension
+when button (2 v) is [pressed v] ::hat extension
 change size by (50) %
 change [color v] effect by (10)
 change [whirl v] effect by (50)
@@ -41,7 +41,7 @@ Make a new variable and name it `random_effect`{:class="block3variables"}.
 Disconnect the `change`{:class="block3looks"} blocks from the `when button pressed`{:class="block3extensions"} event block and move them to one side.
 
 ```blocks3
-when button (2 v) is [pressed v] ::extension
+when button (2 v) is [pressed v] ::hat extension
 
 change size by (50) %
 change [color v] effect by (10)
@@ -71,7 +71,7 @@ Change the variable to `random_effect`{:class="block3variables"} using the dropd
 From the `Operators`{:class="block3operators"} block palette, add a `pick random 1 to 10`{:class="block3operators"} block and change the range to 1 to 3.
 
 ```blocks3
-when button (2 v) is [pressed v] ::extension
+when button (2 v) is [pressed v] ::hat extension
 + set [random_effect v] to (pick random (1) to (3))
 ```
 Now, every time you press the button, `random_effect`{:class="block3variables"} is set to 1, 2 or 3.
@@ -98,7 +98,7 @@ Let's add some selection to your program.
 From the `Control`{:class="block3control"} block palette, add an `if... then... else`{:class="block3control"} block.
 
 ```blocks3
-when button (2 v) is [pressed v] ::extension
+when button (2 v) is [pressed v] ::hat extension
 set [random_effect v] to (pick random (1) to (3))
 + If <> then
 else
@@ -120,7 +120,7 @@ From the `Operators`{:class="block3operators"} block palette, add a `0 = 50`{:cl
 Place this whole block in the hexagonal space between `if`{:class="block3control"} and `then`{:class="block3control"}.
 
 ```blocks3
-when button (2 v) is [pressed v] ::extension
+when button (2 v) is [pressed v] ::hat extension
 set [random_effect v] to (pick random (1) to (3))
 If <(random_effect)=(1)> then
 else
@@ -134,7 +134,7 @@ end
 If `random_effect`{:class="block3variables"} does equal 1 then let's change the size.
 
 ```blocks3
-when button (2 v) is [pressed v] ::extension
+when button (2 v) is [pressed v] ::hat extension
 set [random_effect v] to (pick random (1) to (3))
 If <(random_effect)=(1)> then
     change size by (50) %
@@ -161,7 +161,7 @@ end
 Place this new `if... then... else`{:class="block3control"} block **inside** the `else`{:class="block3control"} part of the original `if... then... else`{:class="block3control"} block.
 
 ```blocks3
-when button (2 v) is [pressed v] ::extension
+when button (2 v) is [pressed v] ::hat extension
 set [random_effect v] to (pick random (1) to (3))
 If <(random_effect)=(1)> then
     change size by (50) %
@@ -194,7 +194,7 @@ change [whirl v] effect by (50)
 It took two questions to check whether `random_effect`{:class="block3variables"} is 1, 2 or 3.
 
 ```blocks3
-when button (2 v) is [pressed v] ::extension
+when button (2 v) is [pressed v] ::hat extension
 set [random_effect v] to (pick random (1) to (3))
 If <(random_effect)=(1)> then
     change size by (50) %

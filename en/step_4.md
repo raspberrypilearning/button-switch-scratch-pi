@@ -19,7 +19,7 @@ The fourth random option will be shrinking.
 Start with the [code](http://rpf.io/p/en/button-switch-scratch-pi-get){:target="_blank"} from [A random button](http://rpf.io/p/en/button-switch-scratch-pi-get){:target="_blank"}.
 
 ```blocks3
-when button (2 v) is [pressed v] ::extension
+when button (2 v) is [pressed v] ::hat extension
 set [random_effect v] to (pick random (1) to (3))
 If <(random_effect)=(1)> then
     change size by (50) %
