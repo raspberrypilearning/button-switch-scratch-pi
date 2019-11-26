@@ -107,16 +107,7 @@ end
 ```blocks3
 when flag clicked
 forever
-    if <button (2 v) is [pressed v]?> then ::extension
-    else
-    end
-    if <button (2 v) is [pressed v]?> ::extension then
-    else
-    end
     if < button (2 v) is [pressed v]?> then
-    else
-    end
-+   if <button (2 v) is [pressed v]?> then
     else
     end
 end
@@ -139,5 +130,7 @@ forever
     end
 end
 ```
+
+Try this out for yourself. It appears to do the same thing as the previous code but is a little more responsive.
 
 --- /task ---
