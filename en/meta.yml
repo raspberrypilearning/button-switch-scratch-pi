@@ -12,5 +12,6 @@ steps:
   - title: "Challenge: A more random button"
     challenge: true
   - title: Controlling an LED
+  - title: Controlling an LED sequence
   - title: "Challenge: Which LED?"
     challenge: true
