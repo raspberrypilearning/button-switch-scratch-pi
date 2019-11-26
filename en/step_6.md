@@ -54,9 +54,9 @@ Add blocks to `turn LED 4 on`{:class="block3extensions"}, `wait 0.1 seconds`{:cl
 when flag clicked
 forever
     if <button (2 v) is [pressed v]?> then
-+       turn LED (4 v) [on v]
++       turn LED (4 v) [on v] ::extension
 +       wait (0.1) seconds
-+       turn LED (4 v) [off v]
++       turn LED (4 v) [off v] ::extension
 +       wait (0.1) seconds
     end
 end
@@ -80,9 +80,9 @@ Can you see what effect this will have?
 when flag clicked
 forever
     if <button (2 v) is [pressed v]?> then
-+       turn LED (4 v) [off v]
++       turn LED (4 v) [off v] ::extension
         wait (0.1) seconds
-+       turn LED (4 v) [on v]
++       turn LED (4 v) [on v] ::extension
         wait (0.1) seconds
     end
 end
@@ -105,9 +105,17 @@ Underneath that, place a `forever`{:class="block3control"} loop and inside that,
 ```blocks3
 when flag clicked
 forever
-    if <> then
++   if <> then
+    else
     end
 end
+
+<button (2 v) is [pressed v]?> :: extension
+
+turn LED (4 v) [on v] ::extension
+wait (0.1) seconds
+turn LED (4 v) [off v] ::extension
+wait (0.1) seconds
 ```
 
 --- /task ---
