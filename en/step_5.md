@@ -48,3 +48,20 @@ turn LED (4 v) [on v] ::extension
 ```
 
 --- /task ---
+
+And to turn the LED off again.
+
+--- task ---
+
+Duplicate the code you just wrote, change the `when button pressed`{:class="block3extensions"} to `when button released`{:class="block3extensions"}, and change the `turn LED 4 on`{:class="block3extensions"} to `turn LED 4 off`{:class="block3extensions"}.
+
+
+```blocks3
+when button (2 v) is [pressed v] ::hat extension
+turn LED (4 v) [on v] ::extension
+
++ when button (2 v) is [released v] ::hat extension
++ turn LED (4 v) [off v] ::extension
+```
+
+--- /task ---
