@@ -150,7 +150,7 @@ But if `random_effect`{:class="block3variables"} does **not** equal 1 you need t
 
 Duplicate the `if... then... else`{:class="block3control"} block along with everything insde it.
 
-Change the `random_effect`{:class="block3variables"}`= 1`{:class="block3operators"}to `random_effect`{:class="block3variables"}`= 2`{:class="block3operators"} and throw the `set size`{:class="block3looks"} block away.
+Change the `random_effect`{:class="block3variables"}`= 1`{:class="block3operators"}to `random_effect`{:class="block3variables"}`= 2`{:class="block3operators"} and throw the duplicated `change size`{:class="block3looks"} block away.
 
 ```blocks3
 If <(random_effect)=(2)> then
