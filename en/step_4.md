@@ -70,11 +70,25 @@ end
 
 --- hint ---
 
-The code below are some possible examples but what you come up with is up to you. You might want to think about the result you want and try to make that heppen with code, or you could approach it from the other side, playing with the code and seeing what the results look like. 
+Try using the code below. The highlighted sections show chnages from the original code.
 
-Always try and understand why the result look the way it does. 
-
-![Light show challenge code solution](images/lightShow_lightShowCode_Solution.png)
+```blocks3
+when button (2 v) is [pressed v] ::extension
++ set [random_effect v] to (pick random (1) to (4))
+If <(random_effect)=(1)> then
+    change size by (50) %
+else
++   If <(random_effect)=(2)> then
+        change [color v] effect by (20)
+    else
+        If <(random_effect)=(3)> then
+            change size by (-50) %
+        else
+            change [whirl v] effect by (pick random (-100) to (100))
+        end
+    end
+end
+```
 
 --- /hint ---
 
