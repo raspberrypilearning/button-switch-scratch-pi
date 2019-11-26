@@ -88,3 +88,38 @@ end
 ```
 
 --- /task ---
+
+Between the `if`{:class="block3control"} and the `then`{:class="block3control"} goes the condition to be checked.
+
+--- task ---
+
+From the `Rapsberry Pi Simple Electronics`{:class="block3extensions"} block palette, take a hexagonal `button is pressed`{:class="block3extensions"} block, place this in the haxagonal space and set the button number to `2`{:class="block3extensions"}.
+
+
+```blocks3
+when flag clicked
+forever
+    if <button (2 v is [pressed v]?)> then
+    else
+    end
+end
+```
+```blocks3
+when flag clicked
+forever
+    if <+ button (2 v is [pressed v]?)> then
+    else
+    end
+end
+```
+--- /task ---
+
+--- /task ---
+
+After the `then`{:class="block3control"} and after the `else`{:class="block3control"} go the responses to whether `button 2 is pressed`{:class="block3extensions"} or not.
+
+--- task ---
+
+In the first space, after `then`{:class="block3control"}, place a `turn LED 4 on`{:class="block3extensions"} block, and in the second space, after `else`{:class="block3control"}, place a `turn LED 4 off`{:class="block3extensions"} block.
+
+--- /task ---
