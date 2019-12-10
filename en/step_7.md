@@ -16,6 +16,8 @@ For this challenge you will write a completely new code that will randomly choos
 
 You will need to wire up three LEDs (preferably different colours) and a button.
 
+![Three LEDs and a button](images/whichLED_3LEDsAnd1button.png)
+
 To keep the code simple, connect the LEDs to three consecutive number GPIO pins, e.g. 4, 5 and 6.
 
 NOTE: In addition to using the drop down box, you can also specify an LED number by dropping in a variable block as shown below.
