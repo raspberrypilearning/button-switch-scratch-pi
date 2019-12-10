@@ -70,7 +70,7 @@ end
 
 --- hint ---
 
-Try using the code below. The highlighted sections show chnages from the original code.
+Try using the code below. The highlighted sections show changes from the original code.
 
 ```blocks3
 when button (2 v) is [pressed v] ::hat extension

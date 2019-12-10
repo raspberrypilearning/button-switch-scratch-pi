@@ -154,10 +154,12 @@ forever
 +       wait (0.1) seconds
 +       turn LED (4 v) [off v] ::extension
 +       wait (0.1) seconds       
-    end
+    end     
 end
 ```
 
-Click the green flag and see what happens. What happens when you press the button? Does the LED stay on or off? Can you work out why?
+Click the green flag and see what happens. What happens when you press the button? 
+
+After you release the button, does the LED stay on or off? Can you work out why?
 
 --- /task ---
