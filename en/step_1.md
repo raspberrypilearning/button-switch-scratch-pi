@@ -16,11 +16,11 @@ This projects follows on from the **LEDs, buzzers and scratch games** project lo
 ### What you will make
 
 --- no-print ---
-![Complete project](images/showcase_static.gif)
+![Complete project](images/whichLED_completedTask.gif)
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+![Complete project](images/whichLED_completedTask.png)
 --- /print-only ---
 
 --- collapse ---
