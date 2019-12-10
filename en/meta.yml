@@ -15,3 +15,6 @@ steps:
   - title: Controlling an LED sequence
   - title: "Challenge: Which LED?"
     challenge: true
+  - title: Reaction game
+  - title: Reaction game decoy    
+  - title: What next?

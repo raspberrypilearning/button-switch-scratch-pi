@@ -18,7 +18,7 @@ You will need to wire up three LEDs (preferably different colours) and a button.
 
 To keep the code simple, connect the LEDs to three consecutive number GPIO pins, e.g. 4, 5 and 6.
 
-NOTE: You may not already be aware that, in addition to using the drop down box, you can also specify an LED number by dropping in a variable block as shown below.
+NOTE: In addition to using the drop down box, you can also specify an LED number by dropping in a variable block as shown below.
 
 ```blocks3
 turn LED (my variable) [on v] :: extension
