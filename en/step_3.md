@@ -1,6 +1,6 @@
 ## A random button
 
-Looking at the example code from **Button basics**, there are three different effects happening all at the same time. 
+Looking at the example code from **button basics**, there are three different effects happening all at the same time. 
 
 + size 
 + colour
@@ -20,7 +20,7 @@ set [whirl v] effect to (0)
 
 Now you're going to use **selection** and a variable to make only one of these things happen each time you press the button.
 
-The `when space pressed`{:class="block3events"} code will remain unchanged as this is the reset code.
+The `when space pressed`{:class="block3events"} code remains unchanged as this is the reset code.
 
 --- task ---
 
@@ -54,7 +54,7 @@ change [whirl v] effect by (50)
 
 Under your `when button pressed`{:class="block3extensions"} event, add a `set my variable to 0`{:class="block3variables"} block.
 
-Change the variable to `random_effect`{:class="block3variables"} using the dropdown box.
+Use the drop-down box to change the variable to `random_effect`{:class="block3variables"}.
 
 --- no-print ---
 ![Change the variable](images/randomButton_changeVariable.gif)
@@ -74,7 +74,7 @@ From the `Operators`{:class="block3operators"} block palette, add a `pick random
 when button (2 v) is [pressed v] ::hat extension
 + set [random_effect v] to (pick random (1) to (3))
 ```
-Now, every time you press the button, `random_effect`{:class="block3variables"} is set to 1, 2 or 3.
+Now, every time you press the button, `random_effect`{:class="block3variables"} is set to 1, 2, or 3.
 
 --- /task ---
 
@@ -144,11 +144,11 @@ end
 
 --- /task ---
 
-But if `random_effect`{:class="block3variables"} does **not** equal 1 you need the program to check if it equals 2!
+But if `random_effect`{:class="block3variables"} does **not** equal 1, you need the program to check if it equals 2!
 
 --- task ---
 
-Duplicate the `if... then... else`{:class="block3control"} block along with everything insde it.
+Duplicate the `if... then... else`{:class="block3control"} block along with everything inside it.
 
 Change the `random_effect`{:class="block3variables"}`= 1`{:class="block3operators"}to `random_effect`{:class="block3variables"}`= 2`{:class="block3operators"} and throw the duplicated `change size`{:class="block3looks"} block away.
 
@@ -175,13 +175,13 @@ end
 --- /task ---
 
 --- task ---
-If `random_effect`{:class="block3variables"} does equal 2 then let's change the colour.
+If `random_effect`{:class="block3variables"} does equal 2, then change the colour.
 
 ```blocks3
 change [color v] effect by (20)
 ```
 
-If `random_effect`{:class="block3variables"} does **not** equal 1 or 2 then then it **must** equal 3, so in the second `else`{:class="block3control"} section let's change the whirl effect.
+If `random_effect`{:class="block3variables"} does **not** equal 1 or 2, then then it **must** equal 3, so in the second `else`{:class="block3control"} section let's change the whirl effect.
 
 ```blocks3
 change [whirl v] effect by (50)
@@ -191,7 +191,7 @@ change [whirl v] effect by (50)
 
 --- task ---
 
-It took two questions to check whether `random_effect`{:class="block3variables"} is 1, 2 or 3.
+It took two questions to check whether `random_effect`{:class="block3variables"} is 1, 2, or 3.
 
 ```blocks3
 when button (2 v) is [pressed v] ::hat extension
@@ -207,7 +207,7 @@ else
 end
 ```
 
-Now press the button a few tiimes to see what effect will happen each time.
+Now press the button a few times to see what effect will happen each time.
 
 --- /task ---
 
