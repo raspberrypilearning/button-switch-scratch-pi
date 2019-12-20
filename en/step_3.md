@@ -2,9 +2,9 @@
 
 Looking at the example code from **button basics**, there are three different effects happening all at the same time: 
 
-+ size 
-+ colour
-+ whirl
++ Size 
++ Colour
++ Whirl
 
 ```blocks3
 when button (2 v) is [pressed v] ::hat extension
