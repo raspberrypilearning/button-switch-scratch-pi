@@ -1,6 +1,6 @@
 ## Controlling an LED sequence
 
-In the last section, **controlling an LED**, you used a button to turn an LED on and off. Now you are going to use the button to control an LED running a flashing sequence.
+In the last section, **controlling an LED**, you used a button to turn an LED on and off. Now you will use the button to control an LED running a flashing sequence.
 
 You can keep the same hardware setup that you used in **controlling an LED**. If you like, you can easily adapt the project and add extra LEDs or a buzzer.
 
@@ -66,15 +66,15 @@ Click the green flag and press the button. Keep the button pressed and see what 
 
 --- /task ---
 
-The code only says to turn the LED on and off when the button is being pressed but as long as the button is pressed those instructions will keep repeating, making the LED flash.
+The code only says to turn the LED on and off when the button is being pressed. However, as long as the button is pressed those instructions repeat themselves and as a result the LED flash.
 
-Since the last LED instruction is to `turn LED 4 off`{:class="block3extensions"}. The LED will always be off when the button is not being pressed.
+The last LED instruction is to `turn LED 4 off`{:class="block3extensions"}. Therefore,the LED will always be off when the button is not  pressed.
 
 --- task ---
 
 Reverse the position of the two `turn LED 4 on & off`{:class="block3extensions"} blocks.
 
-Can you see what effect this will have?
+Can you see what the effect will be?
 
 ```blocks3
 when flag clicked
@@ -88,7 +88,7 @@ forever
 end
 ```
 
-Click the green flag, press the button and se what has changed.
+Click the green flag, press the button and see what has changed.
 
 --- /task ---
 
@@ -126,7 +126,7 @@ wait (0.1) seconds
 
 Replace the hexagonal `button 2`{:class="block3extensions"} condition block in the space in the new `if... then... else...`{:class="block3control"} block.
 
-Since this sequence will have the LED off when the button is pressed, place an `turn LED 4 off`{:class="block3extensions"} block after the `then`{:class="block3control"}.
+Since this sequence turns the LED off when the button is pressed, place an `turn LED 4 off`{:class="block3extensions"} block after the `then`{:class="block3control"}.
 
 ```blocks3
 when flag clicked
@@ -142,7 +142,7 @@ end
 
 --- task ---
 
-Finally, place the `turn LED 4 on & off`{:class="block3extensions"} sequence in the space below `else`{:class="block3control"}. This is what will happen whenever the button is not pressed.
+Finally, place the `turn LED 4 on & off`{:class="block3extensions"} sequence in the space below `else`{:class="block3control"}. This will happen whenever the button is not pressed.
 
 ```blocks3
 when flag clicked
