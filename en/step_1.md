@@ -1,17 +1,17 @@
 --- no-print ---
-This is the **Scratch 3** project and requires a **Raspberry Pi 4**. There is also a [project for Scratch 1.4](https://projects.raspberrypi.org/en/projects/physical-computing-with-scratch14){:target="_blank"} which includes some similar content and can be used with earlier Raspberry Pi models.
+This is a **Scratch 3** project and it requires a **Raspberry Pi 4**. There is also a [project for Scratch 1.4](https://projects.raspberrypi.org/en/projects/physical-computing-with-scratch14){:target="_blank"} which includes some similar content and can be used with earlier Raspberry Pi models.
 --- /no-print ---
 
 --- print-only ---
-This is the **Scratch 3** project and requires a **Raspberry Pi 4**. There is also a project for Scratch 1.4, Physical Computing With Scratch, which includes some similar content and can be used with earlier Raspberry Pi models.
+This is a **Scratch 3** project and it requires a **Raspberry Pi 4**. There is also a project for Scratch 1.4, Physical Computing With Scratch, which includes some similar content and can be used with earlier Raspberry Pi models.
 --- /print-only ---
 
 ## Introduction
 
-In this project you will learn how to wire and control button switches as electronic inputs for a Raspberry Pi 4 using the latest version of Scratch. 
-You will combine these with simple outputs such as LEDs and Scratch to work with each other to add physical world inputs and outputs to on-screen Scratch games.
+In this project, you will use the latest version of Scratch to learn how to wire and control button switches as electronic inputs for a Raspberry Pi 4. 
+You will combine these with simple outputs, such as LEDs and Scratch, to work with each other to add physical world inputs and outputs to on-screen Scratch games.
 
-This projects follows on from the **LEDs, buzzers and scratch games** project looking at physical computing inputs with Scratch 3 and Raspberry Pi.
+This projects follows on from the **LEDs, buzzers, and Scratch games** project that looks at physical computing inputs with Scratch 3 and Raspberry Pi.
 
 ### What you will make
 
@@ -30,7 +30,7 @@ title: What you will need
 ### Hardware
 
 + A Raspberry Pi 4
-+ tactile button switches
++ Tactile button switches
 + LEDs
 + 47Ω (Ohm) to 330Ω resistors
 + A buzzer
@@ -59,7 +59,7 @@ You can find the [completed project Scratch files here](http://rpf.io/p/en/butto
 title: What you will learn
 ---
 
-+ To wire simple circuits using button switches, LEDs, buzzers and a Raspberry Pi
++ To wire simple circuits using button switches, LEDs, buzzers, and a Raspberry Pi
 + To code electronic **inputs** in Scratch 3
 + To combine real-world electronic inputs and outputs with on-screen Scratch activity
 
