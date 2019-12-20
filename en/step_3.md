@@ -100,7 +100,7 @@ From the `Control`{:class="block3control"} block palette, add an `if... then... 
 ```blocks3
 when button (2 v) is [pressed v] ::hat extension
 set [random_effect v] to (pick random (1) to (3))
-+ If <> then
++ if <> then
 else
 end
 ```
@@ -122,7 +122,7 @@ Place this whole block in the hexagonal space between `if`{:class="block3control
 ```blocks3
 when button (2 v) is [pressed v] ::hat extension
 set [random_effect v] to (pick random (1) to (3))
-If <(random_effect)=(1)> then
+if <(random_effect)=(1)> then
 else
 end
 ```
@@ -136,7 +136,7 @@ If `random_effect`{:class="block3variables"} does equal 1, then let's change the
 ```blocks3
 when button (2 v) is [pressed v] ::hat extension
 set [random_effect v] to (pick random (1) to (3))
-If <(random_effect)=(1)> then
+if <(random_effect)=(1)> then
     change size by (50) %
 else
 end
@@ -163,10 +163,10 @@ Place this new `if... then... else`{:class="block3control"} block **inside** the
 ```blocks3
 when button (2 v) is [pressed v] ::hat extension
 set [random_effect v] to (pick random (1) to (3))
-If <(random_effect)=(1)> then
+if <(random_effect)=(1)> then
     change size by (50) %
 else
-+   If <(random_effect)=(2)> then
++   if <(random_effect)=(2)> then
     else
     end
 end
@@ -196,10 +196,10 @@ It took two questions to check whether `random_effect`{:class="block3variables"}
 ```blocks3
 when button (2 v) is [pressed v] ::hat extension
 set [random_effect v] to (pick random (1) to (3))
-If <(random_effect)=(1)> then
+if <(random_effect)=(1)> then
     change size by (50) %
 else
-    If <(random_effect)=(2)> then
+    if <(random_effect)=(2)> then
 +       change [color v] effect by (20)
     else
 +       change [whirl v] effect by (50)
