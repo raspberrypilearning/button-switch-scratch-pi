@@ -16,7 +16,7 @@ The fourth random option will be shrinking.
 
 --- /print-only ---
 
-Start with the [code](http://rpf.io/p/en/button-switch-scratch-pi-get){:target="_blank"} from [A random button](http://rpf.io/p/en/button-switch-scratch-pi-get){:target="_blank"}.
+Start with the [code](http://rpf.io/p/en/button-switch-scratch-pi-get){:target="_blank"} from [a random button](http://rpf.io/p/en/button-switch-scratch-pi-get){:target="_blank"}.
 
 ```blocks3
 when button (2 v) is [pressed v] ::hat extension
