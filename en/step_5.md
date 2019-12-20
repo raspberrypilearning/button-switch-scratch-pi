@@ -18,7 +18,7 @@ In the **LEDs, buzzers and Scratch games** project you looked at controlling **o
 
 ### The electronic circuits
 
-Let's start with the simple button setup you already have.
+Let's start with your simple button setup.
 
 ![Simple button setup](images/controlLED_buttonToGPIO2.png)
 
@@ -34,7 +34,7 @@ Add an LED connected to GPIO pin 4.
 
 ### The Scratch program
 
-Now that you have our cicuits ready, it is time for you to write some code in Scratch.
+Now that you have your cicuits ready, it is time to write some code in Scratch.
 
 --- task ---
 
