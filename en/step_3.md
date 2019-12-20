@@ -1,6 +1,6 @@
 ## A random button
 
-Looking at the example code from **button basics**, there are three different effects happening all at the same time. 
+Looking at the example code from **button basics**, there are three different effects happening all at the same time: 
 
 + size 
 + colour
