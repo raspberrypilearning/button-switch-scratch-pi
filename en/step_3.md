@@ -68,7 +68,7 @@ Use the drop-down box to change the variable to `random_effect`{:class="block3va
 
 --- task ---
 
-From the `Operators`{:class="block3operators"} block palette, add a `pick random 1 to 10`{:class="block3operators"} block and change the range to 1 to 3.
+From the `Operators`{:class="block3operators"} block palette, add a `pick random 1 to 10`{:class="block3operators"} block and change to `pick random 1 to 3`.
 
 ```blocks3
 when button (2 v) is [pressed v] ::hat extension
@@ -80,7 +80,7 @@ Now, every time you press the button, `random_effect`{:class="block3variables"} 
 
 ### About selection
 
-At this point in the code, you need the program to make a **decision**. You need it to decide which of the three effects is going to happen each time the button is pressed. We call this decidion a **selection**.
+At this point in the code, you need the program to make a **decision**. You need it to decide which of the three effects is going to happen each time the button is pressed. This decision is called a **selection**.
 
 The program asks a question, checks the answer and then proceeds one way or another depending on the answer. The answer to a selection question can only be **true** or **false**.
 
@@ -131,7 +131,7 @@ end
 
 --- task ---
 
-If `random_effect`{:class="block3variables"} does equal 1 then let's change the size.
+If `random_effect`{:class="block3variables"} does equal 1, then let's change the size.
 
 ```blocks3
 when button (2 v) is [pressed v] ::hat extension
