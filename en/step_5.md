@@ -1,6 +1,6 @@
 ## Controlling an LED
 
-As we looked at earlier, button switches are an **input** that sends information to your Pi about the moment it is pressed or released and whether it is currently held down or not held down.
+You may remember that button switches are an **input** that sends information to your Pi the moment it is pressed or released, and whether it is currently held down or not held down.
 
 So far, the only **output** that you have used is effects on a Scratch sprite shown visually on a screen.
 
@@ -66,13 +66,13 @@ turn LED (4 v) [on v] ::extension
 
 --- /task ---
 
-NOTE: The `when button pressed`{:class="block3extensions"} and `when button pressed`{:class="block3extensions"} blocks are constantly checking if the button is pressed or released. In the background they are acting like `forever`{:class="block3control"} loops, constantly checking the state of the button.
+NOTE: The `when button pressed`{:class="block3extensions"} and `when button pressed`{:class="block3extensions"} blocks constantly check if the button is pressed or released. In the background they act like `forever`{:class="block3control"} loops, constantly checking the state of the button.
 
-You can write your own code to do much the same thing. Next, you're going to write code that constantly 'asks' if the button is being pressed and tells the LED to be on or off depending on the answer.
+You can write your own code to do the same thing. Next, you're going to write code that constantly 'asks' if the button is being pressed and tells the LED to be on or off, depending on the answer.
 
 --- task ---
 
-Throw your previous code away.
+Throw your previous code away!
 
 Grab a starting event, the `when flag clicked`{:class="block3events"} block.
 
@@ -93,7 +93,7 @@ Between the `if`{:class="block3control"} and the `then`{:class="block3control"} 
 
 --- task ---
 
-From the `Rapsberry Pi Simple Electronics`{:class="block3extensions"} block palette, take a hexagonal `button is pressed`{:class="block3extensions"} block, place this in the haxagonal space and set the button number to `2`{:class="block3extensions"}.
+From the `Rapsberry Pi Simple Electronics`{:class="block3extensions"} block palette, take a hexagonal `button is pressed`{:class="block3extensions"} block, place this in the hexagonal space and set the button number to `2`{:class="block3extensions"}.
 
 
 ```blocks3
@@ -131,6 +131,6 @@ forever
 end
 ```
 
-Try this out for yourself. It appears to do the same thing as the previous code but is a little more responsive.
+Try this out for yourself. It appears to do the same thing as the previous code but it is a little more responsive.
 
 --- /task ---
