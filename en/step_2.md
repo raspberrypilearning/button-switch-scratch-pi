@@ -8,7 +8,7 @@ The **LEDs, buzzers, and Scratch games** project used a Raspberry Pi as a powerf
 
 ![Button switches](images/buttonBasics_buttonSwitches.png)
 
-Many switches you use, such as most household light switches, **toggle** between `on` and `off`. All of the button switches in the image above, and the ones you'll look at in this project are **push-to-make** switches, which means that they are `on` while they being pressed and `off` whenever they are not being pressed.
+Many switches **toggle** between `on` and `off`— household light switches are a key example. All of the button switches in the image above, and the ones you'll look at in this project are **push-to-make** switches, which means that they are `on` while they being pressed and `off` whenever they are not being pressed.
 
 ### Button switch leg connections
 
@@ -143,7 +143,7 @@ Press and release the button to check that it works as you expect.
 
 --- /task ---
 
-Another option is to use the **SPACE** key as an effect reset `event`{:class="block3events"} instead of the `button released`{:class="block3extensions"} event, and swap the `when button pressed`{:class="block3extensions"} `set`{:class="block3looks"} effects to `change`{:class="block3looks"} effects.
+Another option is to use the **SPACE** key as an effect to reset `event`{:class="block3events"} instead of the `button released`{:class="block3extensions"} event, and swap the `when button pressed`{:class="block3extensions"} `set`{:class="block3looks"} effects to `change`{:class="block3looks"} effects.
 
 Let's try it out!
 
