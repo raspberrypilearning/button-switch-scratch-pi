@@ -35,8 +35,8 @@ title: What you will need
 + 47Ω (Ohm) to 330Ω resistors
 + A buzzer
 + A breadboard
-+ Male to Female jumper leads
-+ Female to Female jumper leads
++ Male-to-female jumper leads
++ Female-to-female jumper leads
 
 ### Software
 
