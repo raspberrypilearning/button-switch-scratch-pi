@@ -52,7 +52,7 @@ To make the `whirl`{:class="block3looks"} go either way, `change`{:class="block3
 
 --- hint ---
 
-You will need to add or edit the blocks below. These are all blocks already in your code so you can save some time by duplicating parts of your existing code.
+Next you need to add or edit the blocks below. These are all blocks already in your code so you can save some time by duplicating parts of your existing code.
 
 ![More random button challenge code parsons problem](images/moreRandom_Code_parsons.png)
 
