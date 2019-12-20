@@ -12,7 +12,7 @@ For your first sequence control project, you'll code the LED to flash only while
 
 --- task ---
 
-First, you'll need an event such as the `when flag clicked`{:class="block3events"} block.
+First, you need an event such as the `when flag clicked`{:class="block3events"} block.
 
 Underneath that, place a `forever`{:class="block3control"} loop and inside that, place an `if... then`{:class="block3control"} block.
 
@@ -94,11 +94,11 @@ Click the green flag, press the button and see what has changed.
 
 ### Flashing until pressed
 
-For your second sequence control project, you'll code the LED to flash continuously until the button is pressed.
+For your second sequence control project, code the LED to flash continuously until the button is pressed.
 
 --- task ---
 
-For this, you'll need to first swap the `if... then...`{:class="block3control"} block for an `if... then... else...`{:class="block3control"} block.
+For this, you need to first swap the `if... then...`{:class="block3control"} block for an `if... then... else...`{:class="block3control"} block.
 
 You'll want to reuse most of the code so, without throwing it away, pull out the `button 2`{:class="block3extensions"} condition block and the `turn LED 4 on & off`{:class="block3extensions"} sequence. Arrange the `LED`{:class="block3extensions"} blocks as they were previously so that the `LED turns on`{:class="block3extensions"} first.
 
@@ -142,7 +142,7 @@ end
 
 --- task ---
 
-Finally, place the `turn LED 4 on & off`{:class="block3extensions"} sequence in the space below `else`{:class="block3control"}. This will happen whenever the button is not pressed.
+Finally, place the `turn LED 4 on & off`{:class="block3extensions"} sequence in the space below `else`{:class="block3control"}. This happens whenever the button is not pressed.
 
 ```blocks3
 when flag clicked
