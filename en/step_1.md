@@ -25,6 +25,17 @@ This projects follows on from the **LEDs, buzzers, and Scratch games** project t
 
 --- collapse ---
 ---
+title: What you will learn
+---
+
++ To wire simple circuits using button switches, LEDs, buzzers, and a Raspberry Pi
++ To code electronic **inputs** in Scratch 3
++ To combine real-world electronic inputs and outputs with on-screen Scratch activity
+
+--- /collapse ---
+
+--- collapse ---
+---
 title: What you will need
 ---
 ### Hardware
@@ -51,17 +62,6 @@ Or go to main **Raspberry Pi menu** > **Preferences** > **Recommended Software**
 ### Downloads
 
 You can find the [completed project Scratch files here](http://rpf.io/p/en/button-switch-scratch-pi-get){:target="_blank"} and the [completed project wiring images here](http://rpf.io/p/en/button-switch-scratch-pi-go){:target="_blank"}.
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ To wire simple circuits using button switches, LEDs, buzzers, and a Raspberry Pi
-+ To code electronic **inputs** in Scratch 3
-+ To combine real-world electronic inputs and outputs with on-screen Scratch activity
 
 --- /collapse ---
 
