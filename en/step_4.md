@@ -42,7 +42,7 @@ Adding to the whirl effect value makes the sprite whirl in an anti-clockwise dir
 
 For an extra random option, the `random_effect`{:class="block3variables"} needs to have `4`{:class="block3variables"} possibilities rather than `3`{:class="block3variables"}.
 
-Previously you coded what would happen `if`{:class="block3control"} `random_effect`{:class="block3variables"} `= 1`{:class="block3operators"} and `if`{:class="block3control"} `random_effect`{:class="block3variables"} `= 2`{:class="block3operators"}. Now you need to add that `if`{:class="block3control"} `random_effect`{:class="block3variables"} `= 3`{:class="block3operators"}, `then`{:class="block3control"} `change size`{:class="block3looks"} by a `negative` number to make it shrink. To do this, just add another `if... then... else...`{:class="block3control"} selection where the `change whirl effect by 50`{:class="block3looks"} block was.
+Previously you coded what would happen `if`{:class="block3control"} `random_effect`{:class="block3variables"} `= 1`{:class="block3operators"} and `if`{:class="block3control"} `random_effect`{:class="block3variables"} `= 2`{:class="block3operators"}. Now you need to add that `if`{:class="block3control"} `random_effect`{:class="block3variables"} `= 3`{:class="block3operators"}, `then`{:class="block3control"} `change size`{:class="block3looks"} by a `negative` number to make it shrink. To do this, just add another `if... then... else...`{:class="block3control"} selection to replace the `change whirl effect by 50`{:class="block3looks"} block.
 
 Remember that if `random_effect`{:class="block3variables"} is not 1, 2, or 3, then it must be 4.
 
