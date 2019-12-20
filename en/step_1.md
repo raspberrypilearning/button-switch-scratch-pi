@@ -40,7 +40,7 @@ title: What you will need
 
 ### Software
 
-+ Scratch 3 - if not already installed, open a terminal and type:
++ Scratch 3 — if not already installed, open a terminal and type:
 
 ```bash
 sudo apt install scratch3
