@@ -1,4 +1,4 @@
-## Challenge: A more random button
+## Challenge: a more random button
 
 Add to, and edit, the code from **A random button** so that there is a fourth random option **and** also that the whirl effect changes a random amount so that it can whirl in either direction.
 
@@ -34,19 +34,19 @@ end
 
 Look at how you have coded three options already. How will you add a fourth?
 
-Adding to the whirl effect value makes the sprite whirl in an anti-clockwise direction. How can you also make the sprite whirl in the opposite, clockwise, direction?
+Adding to the whirl effect value makes the sprite whirl in an anti-clockwise direction. How can you also make the sprite whirl in a clockwise direction?
 
 --- hints ---
 
 --- hint ---
 
-For an extra random option, the `random_effect`{:class="block3variables"} will need to have `4`{:class="block3variables"} possibilities rather than `3`{:class="block3variables"}.
+For an extra random option, the `random_effect`{:class="block3variables"} needs to have `4`{:class="block3variables"} possibilities rather than `3`{:class="block3variables"}.
 
-Previously you coded what would happen `if`{:class="block3control"} `random_effect`{:class="block3variables"} `= 1`{:class="block3operators"} and `if`{:class="block3control"} `random_effect`{:class="block3variables"} `= 2`{:class="block3operators"}. Now you need to add that `if`{:class="block3control"} `random_effect`{:class="block3variables"} `= 3`{:class="block3operators"}, `then`{:class="block3control"} `change size`{:class="block3looks"} by a `negative` number to make it shrink. To do this, just add another `if... then... else...`{:class="block3control"} selction where the `change whirl effect by 50`{:class="block3looks"} block was.
+Previously you coded what would happen `if`{:class="block3control"} `random_effect`{:class="block3variables"} `= 1`{:class="block3operators"} and `if`{:class="block3control"} `random_effect`{:class="block3variables"} `= 2`{:class="block3operators"}. Now you need to add that `if`{:class="block3control"} `random_effect`{:class="block3variables"} `= 3`{:class="block3operators"}, `then`{:class="block3control"} `change size`{:class="block3looks"} by a `negative` number to make it shrink. To do this, just add another `if... then... else...`{:class="block3control"} selection where the `change whirl effect by 50`{:class="block3looks"} block was.
 
-Remember that if `random_effect`{:class="block3variables"} is not 1, 2 or 3 then it must be 4.
+Remember that if `random_effect`{:class="block3variables"} is not 1, 2, or 3, then it must be 4.
 
-To make the `whirl`{:class="block3looks"} go either way, `change`{:class="block3looks"} it by `a random number`{:class="block3operators"} from `-100`{:class="block3operators"} to `100`{:class="block3operators"}. A negative number takes away from the `whirl`{:class="block3looks"} effect value making it whirl in a clockwise direction.
+To make the `whirl`{:class="block3looks"} go either way, `change`{:class="block3looks"} it by `a random number`{:class="block3operators"} from `-100`{:class="block3operators"} to `100`{:class="block3operators"}. A negative number takes away from the `whirl`{:class="block3looks"} effect value, making it whirl in a clockwise direction.
 
 --- /hint ---
 
@@ -56,7 +56,7 @@ You will need to add or edit the blocks below. These are all blocks already in y
 
 ![More random button challenge code parsons problem](images/moreRandom_Code_parsons.png)
 
-NOTE: Duplicating you second `if... then... else...`{:class="block3control"} selction will help. It only needs a little editing to become exaclty what you need.
+NOTE: Duplicating you second `if... then... else...`{:class="block3control"} selction will help. It only needs a little editing to become exactly what you need.
 
 ```blocks3
 If <(random_effect)=(2)> then
