@@ -8,7 +8,7 @@ The **LEDs, buzzers, and Scratch games** project used a Raspberry Pi as a powerf
 
 ![Button switches](images/buttonBasics_buttonSwitches.png)
 
-Many switches **toggle** between `on` and `off`— household light switches are a key example. All of the button switches in the image above, and the ones you'll look at in this project are **push-to-make** switches, which means that they are `on` while they being pressed and `off` whenever they are not being pressed.
+Many switches, including household light switches, **toggle** between `on` and `off`. All of the button switches in the image above, and the ones you'll look at in this project are **push-to-make** switches, which means that they are `on` while they being pressed and `off` whenever they are not being pressed.
 
 ### Button switch leg connections
 
