@@ -26,7 +26,7 @@ end
 
 --- /task ---
 
-This set of blocks will continuously check a condition, or ask a question, and then do something if the condition is **true**, i.e. the answer is positive. In this case you want to ask if the button attached to GPIO pin 2 is being pressed.
+This set of blocks continuously checks a condition, or ask a question, and then do something if the condition is **true**, i.e. the answer is positive. In this case, you want to ask if the button attached to GPIO pin 2 is being pressed.
 
 --- task ---
 
@@ -100,7 +100,7 @@ For your second sequence control project, code the LED to flash continuously unt
 
 For this, you need to first swap the `if... then...`{:class="block3control"} block for an `if... then... else...`{:class="block3control"} block.
 
-You'll want to reuse most of the code so, without throwing it away, pull out the `button 2`{:class="block3extensions"} condition block and the `turn LED 4 on & off`{:class="block3extensions"} sequence. Arrange the `LED`{:class="block3extensions"} blocks as they were previously so that the `LED turns on`{:class="block3extensions"} first.
+You can reuse most of the code so don't throw it away. Pull out the `button 2`{:class="block3extensions"} condition block and the `turn LED 4 on & off`{:class="block3extensions"} sequence. Arrange the `LED`{:class="block3extensions"} blocks as they were previously so that the `LED turns on`{:class="block3extensions"} first.
 
 Throw the `if... then...`{:class="block3control"} block away and replace it with an `if... then... else...`{:class="block3control"} block.
 
