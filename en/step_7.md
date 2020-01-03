@@ -32,7 +32,7 @@ See if you can use this to make one random LED turn on when you press the button
 
 --- hint ---
 
-First, you'll need to create a `variable`{:class="block3variables"} and call it `random_LED`{:class="block3variables"}.
+First, create a `variable`{:class="block3variables"} and call it `random_LED`{:class="block3variables"}.
 
 Then write code so that `when you press button 2`{:class="block3extensions"}, `random_LED`{:class="block3variables"} is set to `between 4 and 6`{:class="block3operators"}, a `random_LED`{:class="block3variables"} turns on, the program `waits`{:class="block3control"} for `0.2 seconds`{:class="block3control"} and then the same `random_LED`{:class="block3variables"} turns off again.
 
