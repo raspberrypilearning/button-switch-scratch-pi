@@ -32,9 +32,9 @@ else
 end
 ```
 
-Look at how you have coded three options already. How will you add a fourth?
+Look at how you have coded three options already. Can you add a fourth?
 
-Adding to the whirl effect value makes the sprite whirl in an anticlockwise direction. How can you also make the sprite whirl in a clockwise direction?
+Adding to the whirl effect value moves the sprite whirl in an anticlockwise direction. How can you also make the sprite whirl in a clockwise direction?
 
 --- hints ---
 
