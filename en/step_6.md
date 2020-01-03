@@ -66,7 +66,7 @@ Click the green flag and press the button. Keep the button pressed and see what 
 
 --- /task ---
 
-The code only says to turn the LED on and off when the button is being pressed. However, as long as the button is pressed those instructions repeat themselves and as a result the LED flash.
+The code only says to turn the LED on and off when the button is being pressed. However, as long as the button is pressed those instructions repeat themselves and as a result the LED will flash.
 
 The last LED instruction is to `turn LED 4 off`{:class="block3extensions"}. Therefore, the LED will always be off when the button is not  pressed.
 
