@@ -62,7 +62,7 @@ For the button to send an input to your Raspberry Pi through the GPIO pin, you n
 
 --- task ---
 
-Click on the **Add Extension** button on the bottom left-hand corner.
+Click on the **Add Extension** button in the bottom left-hand corner.
 
 ![Add Extension button](images/codeLED_addExtensionButton.png)
 
