@@ -8,7 +8,7 @@ The **LEDs, buzzers, and Scratch games** project used a Raspberry Pi as a powerf
 
 ![Button switches](images/buttonBasics_buttonSwitches.png)
 
-Many switches, including household light switches, **toggle** between `on` and `off`. All of the button switches in the image above, and the ones you'll look at in this project are **push-to-make** switches, which means that they are `on` while they being pressed and `off` whenever they are not being pressed.
+Many switches, including household light switches, **toggle** between `on` and `off`. All of the button switches in the image above, and the ones you'll look at in this project are **push-to-make** switches, which means that they are `on` while they are pressed and `off` whenever they are not pressed.
 
 ### Button switch leg connections
 
@@ -18,7 +18,7 @@ All but the smallest buttons have four legs which are connected in signal-in and
 
 In the image above, a **signal-in** jumper cable could be connected anywhere in row 23 and the **signal-out** cable anywhere in row 25.
 
-NOTE: if you connected a cable to the left-hand side row 23 and another to the right-hand side of row 23, the signal would pass straight through the switch whether it was pressed or not.
+NOTE: if you connected a cable to row 23 on the left-hand side of the board and another to row 23 on the right-hand side, the signal would pass straight through the switch whether it was or wasn't pressed.
 
 ![Button switch leg connections](images/buttonBasics_buttonLegConnections.png)
 
@@ -34,7 +34,7 @@ Plug a button switch into your breadboard. The button switch fits nicely with it
 
 --- task ---
 
-Connect one leg (signal in) to a numbered GPIO pin. In the example, it is connected to **GPIO pin 2**.
+Connect one leg (signal-in) to a numbered GPIO pin. In the example, it is connected to **GPIO pin 2**.
 
 ![connect to GPIO pin 2](images/buttonBasics_buttonToGpio2.png)
 
