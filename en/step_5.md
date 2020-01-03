@@ -2,11 +2,11 @@
 
 You may remember that button switches are an **input** that sends information to your Pi the moment it is pressed or released, and whether it is currently held down or not held down.
 
-So far, your **output** has been effects on a Scratch sprite shown visually on a screen.
+So far, your **output** has been different effects on a Scratch sprite shown visually on a screen.
 
 ![Input Output](images/buttonBasics_inputOutput.png)
 
-In the **LEDs, buzzers and Scratch games** project you looked at how to control **outputs** such as LEDs. Now you are going to combine your button **input** with an LED **output**.
+In the **LEDs, buzzers and Scratch games** project, you looked at how to control **outputs** such as LEDs. Now you are going to combine your button **input** with an LED **output**.
 
 --- no-print ---
 ![Button and LED](images/controlLED_completedTask.gif)
@@ -66,7 +66,7 @@ turn LED (4 v) [on v] ::extension
 
 --- /task ---
 
-NOTE: The `when button pressed`{:class="block3extensions"} and `when button pressed`{:class="block3extensions"} blocks constantly check if the button is pressed or released. In the background they act like `forever`{:class="block3control"} loops, constantly checking the state of the button.
+NOTE: The `when button pressed`{:class="block3extensions"} and `when button pressed`{:class="block3extensions"} blocks constantly check if the button is pressed or released. In the background they act like `forever`{:class="block3control"} loops; they constantly check the state of the button.
 
 You can write your own code to do the same thing. Next, you will write code that constantly 'asks' if the button is being pressed and tells the LED to be on or off, depending on the answer.
 
