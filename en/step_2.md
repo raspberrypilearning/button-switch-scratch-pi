@@ -12,11 +12,11 @@ Many switches, including household light switches, **toggle** between `on` and `
 
 ### Button switch leg connections
 
-All but the smallest buttons have four legs which are connected in signal in and signal out pairs (polarity does not matter for button switches).
+All but the smallest buttons have four legs which are connected in signal-in and signal-out pairs (polarity does not matter for button switches).
 
 ![Button switch in breadboard](images/buttonBasics_buttonInBB.png)
 
-In the image above, a **signal in** jumper cable could be connected anywhere in row 23 and the **signal out** cable anywhere in row 25.
+In the image above, a **signal-in** jumper cable could be connected anywhere in row 23 and the **signal-out** cable anywhere in row 25.
 
 NOTE: if you connected a cable to the left-hand side row 23 and another to the right-hand side of row 23, the signal would pass straight through the switch whether it was pressed or not.
 
@@ -42,7 +42,7 @@ Connect one leg (signal in) to a numbered GPIO pin. In the example, it is connec
 
 --- task ---
 
-Connect the other leg on that side (signal out) to a ground (GND or -) pin.
+Connect the other leg on that side (signal-out) to a ground (GND or -) pin.
 
 ![connect to a ground pin](images/buttonBasics_buttonToGround.png)
 
