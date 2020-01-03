@@ -13,7 +13,7 @@ You will combine these with simple outputs, such as LEDs and Scratch, to work wi
 
 This projects follows on from the **LEDs, buzzers, and Scratch games** project that looks at physical computing inputs with Scratch 3 and Raspberry Pi.
 
-### What you will make
+title: What you will make
 
 --- no-print ---
 ![Complete project](images/whichLED_completedTask.gif)
