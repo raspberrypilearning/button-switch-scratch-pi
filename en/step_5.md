@@ -34,7 +34,7 @@ Add an LED connected to GPIO pin 4.
 
 ### The Scratch program
 
-Now that you have your cicuits ready, it is time to write some code in Scratch.
+Now that you have your circuits ready, it is time to write some code in Scratch.
 
 --- task ---
 
