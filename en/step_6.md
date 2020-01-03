@@ -26,7 +26,7 @@ end
 
 --- /task ---
 
-This set of blocks continuously checks a condition, or ask a question, and then do something if the condition is **true**, i.e. the answer is positive. In this case, you want to ask if the button attached to GPIO pin 2 is being pressed.
+This set of blocks continuously checks a condition, or ask a question, and then does something if the condition is **true**, i.e. the answer is positive. In this case, you want to ask if the button attached to GPIO pin 2 is being pressed.
 
 --- task ---
 
@@ -68,7 +68,7 @@ Click the green flag and press the button. Keep the button pressed and see what 
 
 The code only says to turn the LED on and off when the button is being pressed. However, as long as the button is pressed those instructions repeat themselves and as a result the LED flash.
 
-The last LED instruction is to `turn LED 4 off`{:class="block3extensions"}. Therefore,the LED will always be off when the button is not  pressed.
+The last LED instruction is to `turn LED 4 off`{:class="block3extensions"}. Therefore, the LED will always be off when the button is not  pressed.
 
 --- task ---
 
