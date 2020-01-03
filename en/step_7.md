@@ -1,6 +1,6 @@
 ## Challenge: which LED?
 
-For this challenge, you will write a completely new code that will randomly choose one of three LEDs to turn on when you press the button.
+For this challenge, you will write a completely new code that randomly chooses one of three LEDs to turn on when you press the button.
 
 --- no-print ---
 
