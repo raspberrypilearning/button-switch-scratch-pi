@@ -6,7 +6,7 @@ So far, your **output** has been effects on a Scratch sprite shown visually on a
 
 ![Input Output](images/buttonBasics_inputOutput.png)
 
-In the **LEDs, buzzers and Scratch games** project you looked at controlling **outputs** such as LEDs. Now you are going to combine your button **input** with an LED **output**.
+In the **LEDs, buzzers and Scratch games** project you looked at how to control **outputs** such as LEDs. Now you are going to combine your button **input** with an LED **output**.
 
 --- no-print ---
 ![Button and LED](images/controlLED_completedTask.gif)
