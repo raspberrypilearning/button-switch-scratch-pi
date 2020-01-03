@@ -56,7 +56,7 @@ Next you need to add or edit the blocks below. These are all blocks already in y
 
 ![More random button challenge code parsons problem](images/moreRandom_Code_parsons.png)
 
-NOTE: Duplicate your second `if... then... else...`{:class="block3control"} selection. You only need to slightly edit it to become exactly what you need.
+NOTE: Duplicate your second `if... then... else...`{:class="block3control"} selection. You only need to slightly edit it for it to become exactly what you need.
 
 ```blocks3
 If <(random_effect)=(2)> then
