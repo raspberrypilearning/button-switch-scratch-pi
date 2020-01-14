@@ -66,7 +66,7 @@ turn LED (4 v) [on v] ::extension
 
 --- /task ---
 
-NOTE: The `when button pressed`{:class="block3extensions"} and `when button pressed`{:class="block3extensions"} blocks constantly check if the button is pressed or released. In the background they act like `forever`{:class="block3control"} loops; they constantly check the state of the button.
+NOTE: The `when button pressed`{:class="block3extensions"} and `when button released`{:class="block3extensions"} blocks constantly check if the button is pressed or released. In the background they act like `forever`{:class="block3control"} loops; they constantly check the state of the button.
 
 You can write your own code to do the same thing. Next, you will write code that constantly 'asks' if the button is being pressed and tells the LED to be on or off, depending on the answer.
 
