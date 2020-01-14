@@ -12,7 +12,7 @@ Many switches, including household light switches, **toggle** between `on` and `
 
 ### Button switch leg connections
 
-All but the smallest buttons have four legs which are connected in signal-in and signal-out pairs (polarity does not matter for button switches).
+All but the smallest buttons have four legs that are connected in signal-in and signal-out pairs (polarity does not matter for button switches).
 
 ![Button switch in breadboard](images/buttonBasics_buttonInBB.png)
 
