@@ -4,7 +4,7 @@ Button switches are an **input**. The button sends a signal which is received by
 
 ![Input Output](images/buttonBasics_inputOutput.png)
 
-The **LEDs, buzzers, and Scratch games** project used a Raspberry Pi as a powerful general purpose input output (GPIO) pins to control simple electronic **outputs** such as LEDs and buzzers. In this project, you will do the same for **inputs** with the humble button switch.
+The **LEDs, buzzers, and Scratch games** project used the GPIO (General-Purpose Input/Output) pins along the top of a Raspberry Pi to control simple electronic outputs, such as LEDs and buzzers. In this project, you will do the same for **inputs** with the humble button switch.
 
 ![Button switches](images/buttonBasics_buttonSwitches.png)
 
