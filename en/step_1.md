@@ -8,8 +8,7 @@ This is a **Scratch 3** project and it requires a **Raspberry Pi 4**. There is a
 
 ## Introduction
 
-In this project, you will use the latest version of Scratch to learn how to wire and control button switches as electronic inputs for a Raspberry Pi 4. 
-You will combine these with simple outputs, such as LEDs and Scratch, to work with each other to add physical world inputs and outputs to on-screen Scratch games.
+In this project, you will learn how to wire and control button switches as electronic inputs for a Raspberry Pi 4. You will combine these with simple outputs, such as LEDs, and the latest version of Scratch, to add physical world inputs and outputs to on-screen Scratch games.
 
 This projects follows on from the **LEDs, buzzers, and Scratch games** project that looked at physical computing inputs with Scratch 3 and Raspberry Pi.
 
