@@ -1,6 +1,6 @@
 ## Challenge: a more random button
 
-Add to, and edit, the code from '**A random button**' so that there is a fourth random option **and** also that the whirl effect changes a random amount so that it can whirl in either direction.
+Add to, and edit, the code from the previous section, **a random button**, so that there is a fourth random option **and** also that the whirl effect changes a random amount so that it can whirl in either direction.
 
 The fourth random option will be shrinking.
 
