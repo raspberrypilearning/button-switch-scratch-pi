@@ -2,9 +2,9 @@ title: Button switches, Scratch 3, and Raspberry Pi 4
 hero_image: images/banner.png
 description: button-switch-scratch-pi description
 version: 4
-listed: false
+listed: true
 copyedit: true
-last_tested: "2019-11-05"
+last_tested: "2020-02-25"
 steps:
   - title: Introduction
   - title: Button basics
