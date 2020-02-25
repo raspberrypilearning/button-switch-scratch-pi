@@ -99,7 +99,7 @@ From the `Rapsberry Pi Simple Electronics`{:class="block3extensions"} block pale
 ```blocks3
 when flag clicked
 forever
-    if <button (2 v) is [pressed v]?> then
+    if <button (2 v) is [pressed v]? :: extension +> then
     else
     end
 end
