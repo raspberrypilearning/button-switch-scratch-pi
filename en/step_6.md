@@ -35,7 +35,7 @@ Add a `Rapsberry Pi`{:class="block3extensions"} **selection** block, that asks i
 ```blocks3
 when flag clicked
 forever
-    if <button (2 v) is [pressed v]?> then
+    if <button (2 v) is [pressed v]? :: extension +> then
     end
 end
 ```
@@ -53,7 +53,7 @@ Add blocks to `turn LED 4 on`{:class="block3extensions"}, `wait 0.1 seconds`{:cl
 ```blocks3
 when flag clicked
 forever
-    if <button (2 v) is [pressed v]?> then
+    if <button (2 v) is [pressed v]? :: extension> then
 +       turn LED (4 v) [on v] ::extension
 +       wait (0.1) seconds
 +       turn LED (4 v) [off v] ::extension
@@ -79,7 +79,7 @@ Can you see what the effect will be?
 ```blocks3
 when flag clicked
 forever
-    if <button (2 v) is [pressed v]?> then
+    if <button (2 v) is [pressed v]? :: extension> then
 +       turn LED (4 v) [off v] ::extension
         wait (0.1) seconds
 +       turn LED (4 v) [on v] ::extension
@@ -112,7 +112,7 @@ forever
     end
 end
 
-<button (2 v) is [pressed v]?> :: extension
+<button (2 v) is [pressed v]? :: extension>
 
 turn LED (4 v) [on v] ::extension
 wait (0.1) seconds
@@ -131,7 +131,7 @@ Since this sequence turns the LED off when the button is pressed, place an `turn
 ```blocks3
 when flag clicked
 forever
-    if <button (2 v) is [pressed v]?> then
+    if <button (2 v) is [pressed v]? :: extension> then
 +       turn LED (4 v) [off v] ::extension
     else
     end
@@ -147,7 +147,7 @@ Finally, place the `turn LED 4 on & off`{:class="block3extensions"} sequence in 
 ```blocks3
 when flag clicked
 forever
-    if <button (2 v) is [pressed v]?> then
+    if <button (2 v) is [pressed v]? :: extension> then
         turn LED (4 v) [off v] ::extension
     else
 +       turn LED (4 v) [on v] ::extension
