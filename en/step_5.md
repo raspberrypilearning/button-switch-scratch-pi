@@ -38,7 +38,7 @@ Now that you have your circuits ready, it is time to write some code in Scratch.
 
 --- task ---
 
-From the `Rapsberry Pi Simple Electronics`{:class="block3extensions"} block palette, grab a `when button pressed`{:class="block3extensions"} block and set the button number to `2`{:class="block3extensions"}.
+From the `Raspberry Pi Simple Electronics`{:class="block3extensions"} block palette, grab a `when button pressed`{:class="block3extensions"} block and set the button number to `2`{:class="block3extensions"}.
 
 Add another block to `turn LED on`{:class="block3extensions"} and set the LED number to `4`{:class="block3extensions"}.
 
@@ -93,7 +93,7 @@ Between the `if`{:class="block3control"} and the `then`{:class="block3control"} 
 
 --- task ---
 
-From the `Rapsberry Pi Simple Electronics`{:class="block3extensions"} block palette, take a hexagonal `button is pressed`{:class="block3extensions"} block, place this in the hexagonal space and set the button number to `2`{:class="block3extensions"}.
+From the `Raspberry Pi Simple Electronics`{:class="block3extensions"} block palette, take a hexagonal `button is pressed`{:class="block3extensions"} block, place this in the hexagonal space and set the button number to `2`{:class="block3extensions"}.
 
 
 ```blocks3
