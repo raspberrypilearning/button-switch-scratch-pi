@@ -1,18 +1,24 @@
+---
 title: Button switches, Scratch 3, and Raspberry Pi 4
 hero_image: images/banner.png
-description: Learn how to add physical world inputs and outputs to on-screen Scratch games.
+description: Learn how to add physical world inputs and outputs to on-screen Scratch
+  games.
 version: 4
 listed: true
 copyedit: true
-last_tested: "2020-02-25"
+last_tested: '2020-02-25'
 steps:
-  - title: Introduction
-  - title: Button basics
-  - title: A random button
-  - title: "Challenge: a more random button"
-    challenge: true
-  - title: Controlling an LED
-  - title: Controlling an LED sequence
-  - title: "Challenge: which LED?"
-    challenge: true   
-  - title: What next?
+- title: Introduction
+- title: Button basics
+- title: A random button
+  completion:
+  - engaged
+- title: 'Challenge: a more random button'
+  challenge: true
+- title: Controlling an LED
+- title: Controlling an LED sequence
+  completion:
+  - internal
+- title: 'Challenge: which LED?'
+  challenge: true
+- title: What next?
