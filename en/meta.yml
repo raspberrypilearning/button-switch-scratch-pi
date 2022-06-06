@@ -9,14 +9,16 @@ copyedit: true
 last_tested: '2020-02-25'
 steps:
 - title: Introduction
-  completion: engaged
 - title: Button basics
 - title: A random button
+  completion:
+  - engaged
 - title: 'Challenge: a more random button'
   challenge: true
 - title: Controlling an LED
-  completion: internal
 - title: Controlling an LED sequence
+  completion:
+  - internal
 - title: 'Challenge: which LED?'
   challenge: true
 - title: What next?
