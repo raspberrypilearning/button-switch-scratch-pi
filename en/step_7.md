@@ -44,12 +44,26 @@ These are the code blocks you will need, but you will need to put them in the co
 
 ```blocks3
 pick random (4) to (6)
+'''
+```blocks3
 turn LED (0) [on v] :: extension
+'''
+```blocks3
 random_LED
+'''
+```blocks3
 random_LED
+'''
+```blocks3
 set [random_LED v] to (0)
+'''
+```blocks3
 turn LED (0) [off v] :: extension
+'''
+```blocks3
 when button (2 v) is [pressed v] ::hat extension
+'''
+```blocks3
 wait (0.2) seconds
 ```
 
