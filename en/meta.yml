@@ -4,7 +4,7 @@ hero_image: images/banner.png
 description: Learn how to add physical world inputs and outputs to on-screen Scratch
   games.
 version: 4
-listed: true
+listed: false
 copyedit: true
 last_tested: '2020-02-25'
 steps:
